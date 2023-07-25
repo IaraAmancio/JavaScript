@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: rgb(231, 230, 230);
+    font-family: Poppins;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 450px;
+    min-height: 300px;
+    background: white;
+    border: 2px solid rgb(192, 191, 191);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+p>.destaque {
+    color: blue;
+}
+
+.imagem, #imagem-pokemon {
+    text-align: center;
+}
+
+.imagem img {
+    width: 90%;
+}
+
+hr {
+    margin: 10px 0;
+    border-top: 3px solid rgb(197, 197, 197);
+    border-radius: 5px;
+}
+
+.forms {
+    color: rgb(10, 10, 141);
+    padding: 10px 10px;
+}
+
+.forms label {}
+
+.forms input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(202, 195, 195);
+    text-transform: uppercase;
+}
+
+.forms input[type=submit] {
+    background-color: rgb(8, 8, 94);
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 0;
+    font-family: Poppins;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#imagem-pokemon img{
+    width: 90px;
+    border: 1px solid rgb(165, 163, 163);
+    border-radius: 50%;
+    margin: 0 10px;
+    box-shadow: 5px 5px 5px 0px rgb(160, 155, 155);
+}
+
+#content {
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: 500;
+    background: rgb(255, 208, 0);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid rgb(199, 199, 64);
+    border-radius: 5px;
+}
